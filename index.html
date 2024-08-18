@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selamat Datang di Website HIMAIF</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <img src="img/UNPRA.png" alt="Logo Kiri" class="logo-left" />
+        <h1>HIMAIF UNPRA</h1>
+        <img src="/img/HIMAIF.png" alt="Logo Kanan" class="logo-right" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#social">Social</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="game-container">
+        <div class="game">
+          <h2>Ular Berot</h2>
+          <a href="https://arjuba12.github.io/Ular-Berot/">
+            <img src="/img/blueSnake.png" alt="Ular-Berot" class="game-img1" />
+          </a>
+        </div>
+        <div class="game">
+          <h2>Tebak Angka</h2>
+          <a href="https://septuro17.github.io/Tebak-Angka/">
+            <img src="/img/2.jpg" alt="Tebak-Angka" class="game-img2" />
+          </a>
+        </div>
+        <div class="game">
+          <h2>Booba Shooter</h2>
+          <a href="https://arjuba12.github.io/Booba-Shooter/">
+            <img src="/img/3.jpg" alt="Booba-Shooter" class="game-img2" />
+          </a>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          Ini adalah website untuk memainkan berbagai game secara online.
+          Nikmati berbagai pilihan game seru di sini.
+        </p>
+      </section>
+
+      <section id="social" class="social-media">
+        <a href="https://facebook.com" target="_blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a
+          href="https://www.tiktok.com/@himaif.unpra?_t=8ox6KYfbGi0&_r=1"
+          target="_blank"
+        >
+          <i class="fab fa-tiktok"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/himaif.unpra?igsh=MXQyMjl4d2lwbWp4Yw=="
+          target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </section>
+
+      <section id="comments">
+        <h2>Comments</h2>
+        <div id="comment-form">
+          <input type="text" id="name-input" placeholder="Nama Anda" />
+          <textarea
+            id="comment-input"
+            placeholder="Tulis komentar Anda..."
+          ></textarea>
+          <button onclick="submitComment()">Kirim</button>
+        </div>
+        <div id="comments-section"></div>
+      </section>
+
+      <section id="rating">
+        <h2>Rating</h2>
+        <div id="stars">
+          <span class="star" data-value="1">&#9733;</span>
+          <span class="star" data-value="2">&#9733;</span>
+          <span class="star" data-value="3">&#9733;</span>
+          <span class="star" data-value="4">&#9733;</span>
+          <span class="star" data-value="5">&#9733;</span>
+        </div>
+        <p id="rating-value">Nilai: 0</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 HIMAIF UNPRA. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
